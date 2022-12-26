@@ -50,4 +50,15 @@ Hello, world
 在两个引号中的空格，tab，换行对perl解释器来说都一样。
 
 ### 单引号和双引号有区别
-双引号会解释`\n`和`$a`这样的特殊符号，单引号不会。单引号会完全
+双引号会解释`\n`和`$a`这样的特殊符号，单引号不会。
+```
+print "Hello, world\n";
+print 'Hello, world\n';
+```
+上面代码的运行结果：
+```
+Hello, world
+Hello, world\n$
+```
+
+
