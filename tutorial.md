@@ -142,7 +142,7 @@ $weekdays[1] = Tuesday
 %data = ('John Paul' => 45, 'Lisa' => 30, 'Kumar' => 'Student');
 ```
     也可以用`=>`来更清晰的表达键值关系
-    
+
 访问hash变量
 ```
 print "\$data{'John Paul'} = $data{'John Paul'}\n";
